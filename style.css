@@ -66,6 +66,7 @@ p {
 }
 
 .albums img {
+    border-radius: 5px;
     display: inline-block;
     max-width: 12%;
     margin: 0 5px;
@@ -77,10 +78,23 @@ p {
 }
 
 .recop img {
+    border-radius: 5px;
     display: inline-block;
     max-width: 12%;
     margin: 0 5px;
     vertical-align: top;
+}
+
+.lights {
+   text-align: center;
+}
+
+.lights img {
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 25%;
+  margin: 0 5px;
+  vertical-align: top;
 }
 
 .tabla {
