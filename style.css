@@ -197,7 +197,6 @@ video {
 
 .desordenada li:before {
   content: "\2022";
-  color: red;
   font-weight: bold;
   font-size: 1.2em;
   position: absolute;
