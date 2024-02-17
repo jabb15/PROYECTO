@@ -149,3 +149,57 @@ tr:nth-child(even) {
   margin: 0 5px;
   vertical-align: top;
 }
+
+.lista {
+  list-style-type: none;
+  counter-reset: item;
+  padding-left: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.lista li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.lista li:before {
+  content: counter(item) ".";
+  counter-increment: item;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+}
+
+.video {
+  width: 400px; 
+  margin: 0 auto;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.desordenada {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.desordenada li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.desordenada li:before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+}
