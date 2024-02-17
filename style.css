@@ -137,3 +137,15 @@ tr:nth-child(even) {
 .tour img {
     max-width: 45%;
 }
+
+.etapas {
+   text-align: center;
+}
+
+.etapas img {
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 30%;
+  margin: 0 5px;
+  vertical-align: top;
+}
